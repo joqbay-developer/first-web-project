@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma;
+    text-align: center;
+    background-color: #d3eeee;
+}
+
+.section_1, .section_2, .section_3 {
+    border-bottom: 3px solid #d5d5d5;
+}
+.section_1, .section_2, .section_3, .section_4 {
+    padding: 50px;
+}
+
+.section_1 {
+    min-height: 100vh;
+}
+
+.section_1 img, .section_3 img {
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.section_1 p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+
+.section_2, .section_4 {
+    background-color: #e6e2e1;
+}
+
+.section_3 img {
+    margin-bottom: 40px;
+}
+
+
+p {
+    font-size: 18px;
+    color: #272727;
+    text-align: center;
+    line-height: 28px;
+    width: 930px;
+    margin: 10px auto;
+    padding-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+
+
+h1 {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 40px 0;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #9fb6c6;
+    text-decoration: none;
+    color: #221d1d;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: 0.4s ease;
+}
+
+a:hover {
+    opacity: 0.8;
+    font-size: 18px;
+}
+
+.animation {
+    padding: 35px 0;
+}
+
+
+.material-symbols-outlined {
+  position: relative;
+  animation-name: down;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+
+@keyframes down {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 1056px) {
+    .section_1, .section_2, .section_3, .section_4 {
+        padding: 50px 20px;
+    }
+
+    p {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+       font-size: 18px;
+    }
+    p {
+        font-size: 16px;
+    }
+    img {
+        max-width: 230px;
+    }
+    a {
+        font-size: 16px;
+    }
+}
+
